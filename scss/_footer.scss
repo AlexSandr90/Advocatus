@@ -1,0 +1,41 @@
+.footer-wrap{
+  @include flex();
+  align-items: center;
+  width: 100%;
+  min-height: 5rem;
+  background-color: $primary-bgc;
+}
+.footer{
+  @include flex();
+  @include center_block();
+  justify-content: space-between;
+  .copyright{
+    color: #b5b5b5;
+    span{
+      font-family: PlayfairDisplay-Regular;
+      font-size: 1rem;
+      i{
+        font-family: Lato;
+        font-style: normal;
+      }
+      a{
+        color: $secondary-font-color;
+        text-decoration: none;
+        font-family: OpenSans;
+        font-weight: 500;
+      }
+    }  
+  }
+  .socials{
+    @include flex();
+    justify-content: space-between;
+    min-width: 7.1875rem;
+    li{
+      list-style-type: none;
+      a{
+        text-decoration: none;
+        color: $secondary-font-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+/*Reset start*/
+*{
+  padding: 0;
+  margin: 0;
+}
+body, html{
+  font-size: 100%;
+}
+/*Reset end*/
+@mixin flex(){
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+@mixin center_block(){
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+$primary-font-color: #111111;
+$secondary-font-color: #fff;
+$font-color: #666666;
+$primary-btn-bgc: #e8bf5d;
+$primary-bgc: #111111;
+@font-face {
+  font-family:PlayfairDisplay-Bold;
+  src:url('../fonts/PlayfairDisplay-Bold.ttf');
+}
+@font-face {
+  font-family: PlayfairDisplay-Regular;
+  src:url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+  font-family:'Mariad Pro Regular';
+  src:url('../fonts/Mariad Pro Regular.otf');
+}
+@font-face {
+  font-family:OpenSans;
+  src:url('../fonts/OpenSans.ttf');
+}
+@font-face {
+  font-family:FA-Brands-Regular;
+  src:url('../fonts/Font Awesome 5 Brands-Regular-400.otf');
+}
+@font-face {
+  font-family:FA-FreepRegular;
+  src:url('../fonts/Font Awesome 5 Free-Regular-400.otf');
+}
+@font-face {
+  font-family:Lato;
+  src:url('../fonts/Lato-Regular.ttf');
+}
