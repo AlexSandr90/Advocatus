@@ -59,7 +59,6 @@
   max-height: 750px;
   margin-top: 5rem;
   box-sizing: border-box;
-  /*font-family: PlayfairDisplay-Regular;*/
   color: $secondary-font-color;
 }
 .practis-block{
@@ -176,10 +175,8 @@
     max-width: 1180px;
     width: 100%;
     margin: 0 auto;
-    /*margin-bottom: 9.125rem;*/
     justify-content: space-between;
     img{
-      /*@include flex();*/
       -webkit-box-shadow: 30px 30px 0px 7px rgba(231,166,26,1);
       -moz-box-shadow: 30px 30px 0px 7px rgba(231,166,26,1);
       box-shadow: 30px 30px 0px 7px rgba(231,166,26,1);
@@ -257,7 +254,6 @@
             font-weight: 600;
             i{
               color: $font-color;
-
             }
           }
         }
